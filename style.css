@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fffdd0;
+}
+
+
+/*Header*/
+
+.container {
+    width: 100%;
+    min-height: ;
+    padding-left: ;
+    padding-right: ;
+    overflow: hidden;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+}
+
+.logo {
+    width: ;
+    cursor: pointer;
+    margin: 30px;
+}
+
+i {
+    width: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+
+/*Top Background*/
+
+.top-background {
+    height: 250px;
+    border: 1px solid #000;
+    background-image: url(Assets/vivienne3images\ \(2\).jpg);
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+
+/* .top-background-text {
+    color: #f00606;
+    line-height: ;
+    font-size: ;
+    margin-left: ;
+    margin-top: ;
+} */
+
+.h-two {
+    margin-left: 20rem;
+    margin-top: 10rem;
+}
+
+.top-background-img {
+    margin: ;
+    /*The margin-bottom has stopped increasing at this point*/
+    margin-left: ;
+    top: 50rem;
+    left: 20%;
+}
+
+
+/*About Section*/
+
+.about-section {
+    background-color: #fffdd0;
+}
+
+.about-section h2 {
+    margin: 2rem 1rem;
+}
+
+.about-wrapper {
+    display: flex;
+    margin-left: 1rem;
+}
+
+.about-section,
+.colum1,
+.colum2 {}
+
+.colum1 {
+    max-width: 60ch;
+    line-height: 1.5rem;
+}
+
+.colum2 img {}
+
+
+/*Timeline*/
+
+.timeline {
+    background-color: #fffdd0;
+}
+
+.timeline h2 {
+    margin: 1rem 1rem;
+}
+
+.dates {
+    display: ;
+    line-height: 1.5rem;
+}
+
+
+/*Footer*/
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    height: 90px;
+    margin-top: 5rem;
+}
+
+.foot-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    font-size: 1em;
+}
+
+.foot-icons:hover {}
+
+.foot-text {
+    text-align: center;
+}
+
+
+/*news.html CSS*/
+
+.article {
+    color: #f00606;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    padding: rem;
+    margin: 0 2rem;
+    margin-top: 5rem;
+    /* margin: 10rem 0.5rem; */
+}
+
+h2 {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.author-info {
+    margin: -1rem 2rem;
+    margin-bottom: 7rem;
+    color: gray;
+}
